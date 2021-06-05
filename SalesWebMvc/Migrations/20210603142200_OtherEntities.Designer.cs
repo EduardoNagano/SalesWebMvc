@@ -60,11 +60,11 @@ namespace SalesWebMvc.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<double>("baseSalary");
+                    b.Property<double>("BaseSalary");
 
-                    b.Property<DateTime>("birthDate");
+                    b.Property<DateTime>("BirthDate");
 
-                    b.Property<string>("email");
+                    b.Property<string>("Email");
 
                     b.HasKey("Id");
 
